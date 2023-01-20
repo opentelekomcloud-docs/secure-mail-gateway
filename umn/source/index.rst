@@ -17,6 +17,6 @@ Please find attached the description for the Secure Mail Gateway solution.
    | **English Version**                 | **German Version**                     |
    +=====================================+========================================+
    |  `Secure Mail Gateway User Guide    | `Secure Mail Gateway Benutzerhandbuch  |
-   |  </_static/smg-usermanual.pdf>`_    | </_static/smg-ugs3fs.pdf>`_            |
+   |  <_static/smg-usermanual.pdf>`_     | <_static/smg-ugs3fs.pdf>`_             |
    +-------------------------------------+----------------------------------------+
 
