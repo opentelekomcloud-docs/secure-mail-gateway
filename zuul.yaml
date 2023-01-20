@@ -2,9 +2,11 @@
     merge-mode: squash-merge
     default-branch: main
     templates:
+    - helpcenter-base-jobs
+    - umn-hc-jobs
     check:
       jobs:
-        - noop
+      - noop
     gate:
       jobs:
-        - noop
+      - noop
