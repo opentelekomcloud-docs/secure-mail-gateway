@@ -80,4 +80,4 @@ DKIM signing
 -------------
 
 Based on sender domain a DKIM signing can be configured for outgoing mails.
-(DKIM signing can be requested over ``Cloud Handling Support`` contact.)
+(DKIM signing can be requested over `Cloud Handling Support <https://open-telekom-cloud.com/en/contact>`_ contact.)
