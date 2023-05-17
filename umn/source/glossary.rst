@@ -9,6 +9,9 @@ Glossary
    MDA
      Mail Delivery Agent
 
+   MTA
+     Mail Transfer Agent
+
    NDR
      None Delivery Report
 

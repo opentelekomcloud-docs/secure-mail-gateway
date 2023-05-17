@@ -26,7 +26,7 @@ Authentication with username is now necessary to reduce the suspicioin of spam
 and increase security through TLS authentication. Username will be provided by
 Cloud Handling Support (contact: service@open-telekom-cloud.com).
 
-**Customer costs**: ~23€/month. Will be invoiced via OTC..
+**Customer costs**: ~23€/month. Will be invoiced via OTC.
 
 T-Systems eMail Protect Pro (in case of incoming mail requirement)
 ------------------------------------------------------------------
@@ -34,6 +34,6 @@ T-Systems eMail Protect Pro (in case of incoming mail requirement)
 This is a direct and full managed service from T-Systems (not an OTC service!)
 available at: https://cloud.telekom.de/de/magenta-security/e-mail-protect-pro
 
-| **Contact:** Available contacts: ``FMB Secure-E-Mail <secure-email@t-systems.com>``
+| **Contact:** Available contacts: `FMB Secure-E-Mail <secure-email@t-systems.com>`
 
 | **Customer costs:** to be requested at Secure Mail team. Will not be invoiced by OTC.

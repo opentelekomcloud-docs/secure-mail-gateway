@@ -91,21 +91,21 @@ will allow the client to relay mail.
    queue directory.
 
 #. Next, generate or obtain a digital certificate for :term:`TLS`. See
-   Certificates for details. This example also uses a Certificate Authority
-   (CA). For information on generating a CA certificate see Certification
-   Authority.
+   `Certificates <https://ubuntu.com/server/docs/security-certificates>`__ for details. This example also uses a Certificate Authority
+   (CA). For information on generating a CA certificate see `Certification
+   Authority <https://ubuntu.com/server/docs/security-certificates#Creating%20a%20Self-Signed%20Certificate:~:text=and%20POP3S%2C%20etc.-,Certification%20Authority,-If%20the%20services>`__.
 
    .. note::
 
       MUAs connecting to your mail server via :term:`TLS` will need to recognize
       the certificate used for :term:`TLS`. This can either be done using a
       certificate from a commercial CA or with a self-signed certificate
-      that users manually install/accept. For MTA to MTA :term:`TLS` certficates
+      that users manually install/accept. For :term:`MTA` to :term:`MTA` :term:`TLS` certficates
       are never validated without advance agreement from the affected
-      organizations. For MTA to MTA :term:`TLS`, unless local policy requires it,
+      organizations. For :term:`MTA` to :term:`MTA` :term:`TLS`, unless local policy requires it,
       there is no reason not to use a self-signed certificate. Refer to
       `Creating a Self-Signed
-      Certificate <https://help.ubuntu.com/lts/serverguide/certificates-and-security.html#creating-a-self-signed-certificate>`__
+      Certificate <https://ubuntu.com/server/docs/security-certificates#Creating%20a%20Self-Signed%20Certificate:~:text=Creating%20a%20Self%2DSigned%20Certificate>`__
       for more details.
 
 #. Once you have a certificate, configure Postfix to provide :term:`TLS`
@@ -132,7 +132,7 @@ will allow the client to relay mail.
    .. note::
 
       Again, for more details about certificates see `Certificates
-      <https://help.ubuntu.com/lts/serverguide/certificates-and-security.html>`_.
+      <https://ubuntu.com/server/docs/security-certificates>`_.
 
 After running all the commands, Postfix is configured for SMTP-AUTH and
 a self-signed certificate has been created for :term:`TLS` encryption.
@@ -185,14 +185,15 @@ to restart the postfix daemon:
 
    sudo systemctl restart postfix.service
 
-Postfix supports SMTP-AUTH as defined in RFC2554. It is based on SASL.
+Postfix supports SMTP-AUTH as defined in `RFC2554 <http://www.ietf.org/rfc/rfc2554.txt>`_.
+It is based on `SASL <http://www.ietf.org/rfc/rfc2222.txt>`_.
 However it is still necessary to set up SASL authentication before you
 can use SMTP-AUTH.
 
 Example EXIM Ubuntu
 -------------------
 
-(Source: `ubuntu exim documentation <https://help.ubuntu.com/lts/serverguide/exim4.html>`_)
+(Source: `ubuntu exim documentation <https://ubuntu.com/server/docs/mail-exim4>`_)
 
 Installation
 ~~~~~~~~~~~~
