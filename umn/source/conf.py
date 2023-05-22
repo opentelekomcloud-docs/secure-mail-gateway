@@ -92,8 +92,6 @@ html_static_path = ['_static']
 # Do not include sources into the rendered results
 html_copy_source = False
 
-locale_dirs = ["locales"]
-
 # -- Options for PDF output --------------------------------------------------
 latex_documents = [
     ('index',
