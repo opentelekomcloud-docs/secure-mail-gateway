@@ -28,6 +28,15 @@ project = 'Secure Mail Gateway'
 otcdocs_repo_name = 'opentelekomcloud-docs/secure-mail-gateway'
 # Those variables are required for edit/bug links
 
+# Those variables are needed for indexing into OpenSearch
+otcdocs_doc_environment = 'public'
+otcdocs_doc_link = '/secure-mail-gateway/umn/'
+otcdocs_doc_title = 'User Guide'
+otcdocs_doc_type = 'umn'
+otcdocs_service_category = 'network'
+otcdocs_service_title = 'Secure Mail Gateway'
+otcdocs_service_type = 'smg'
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
