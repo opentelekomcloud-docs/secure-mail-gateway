@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'smg-umn.tex',
-     u'Secure Mail Gateway - User Guide',
+    u'Secure Mail Gateway - User Guide',
      u'OpenTelekomCloud', 'manual'),
 ]
 
