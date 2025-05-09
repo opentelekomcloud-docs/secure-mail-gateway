@@ -38,7 +38,9 @@ otcdocs_doc_type = 'umn'
 otcdocs_service_category = 'network'
 otcdocs_service_title = 'Secure Mail Gateway'
 otcdocs_service_type = 'smg'
+otcdocs_cloud_environment = 'eu_de'
 otcdocs_search_environment = 'hc_de'
+otcdocs_search_index = 'search_index_de'
 otcdocs_search_url = "https://opensearch.eco.tsi-dev.otc-service.com/"
 
 # If extensions (or modules to document with autodoc) are in another directory,
